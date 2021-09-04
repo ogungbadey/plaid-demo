@@ -1,0 +1,132 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .Container > div {
+  padding: 0 1.6rem;
+} */
+
+.Content {
+  flex: 0 1 auto;
+  padding: 0 calc((100% - 280px) / 2);
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.LogoContainer {
+  margin-top: 0.1rem;
+  margin-bottom: 8px;
+}
+
+.LogoContainer img {
+  height: 112px;
+  width: 280px;
+  margin: auto;
+  /* aspect-ratio: auto 296 / 112; */
+}
+
+.Content h1 {
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #111;
+  font-family: helvlight,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.Action {
+  flex: 0 0 auto;
+  padding: 0 calc((100% - 280px) / 2);
+}
+
+.sdfs {
+  background-color: red;
+  
+  padding: "10px 15px";
+  margin-top: "10px";
+  display: "flex";
+  justify-content: "center";
+}
+
+.IntroChecklist {
+  background-color: transparent;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.ChecklistRow {
+  display: inline-grid;
+  grid-gap: 0.2rem;
+  grid-template-columns: 1.5rem auto;
+}
+
+.CheckMark {
+  font-size: 22px;
+}
+
+.CheckListPrimaryText {
+  font-family: helvlight,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.4rem;
+  font-size: 1.0rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.CheckListSecondaryText {
+  font-family: helvlight,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color:dimgray;
+  opacity: .9;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin-top: .5rem;
+  margin-bottom: 2.0rem;
+}
+
+.ButtonInAction {
+  color: dimgray;
+  opacity: .8;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ButtonAfterAction{
+  color: dimgray;
+  width: 100%;
+  height: 56px;
+  background-color: #111;
+  border: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.ButtonAfterAction:hover {
+  background-color: #0977d1;
+}
+
+.ActionFinePrint{
+  color: dimgray;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.0rem;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.ContinueButton{
+}
+
+@media (min-width: 768px) {
+}

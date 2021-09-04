@@ -1,0 +1,51 @@
+.NavBar {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: 1.4rem;
+}
+
+.NavBar button {
+  width: 46px;
+  height: 46px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-top: 12px;
+}
+
+.LeftBtn {
+  padding-left: 16px;
+  text-align: left;
+}
+
+.RightBtn {
+  padding-right: 19px;
+  text-align: right;
+}
+
+.NavBar button span {
+  display: inline-block;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.NavBar button span svg {
+  height: auto;
+  width: 100%;
+}
+
+.PlaidLogoParent {
+  background-size: 4.0rem;
+  height: 3.0rem;
+  width: 4.0rem;
+  background-color: transparent;
+}
+
+
+/* .NavBar */

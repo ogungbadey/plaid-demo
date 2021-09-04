@@ -1,0 +1,36 @@
+.Backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+
+.BackdropContent {
+  flex: 0 0 auto;
+  margin: auto;
+  height: 608px;
+  width: 360px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.BackdropBG {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -11;
+}

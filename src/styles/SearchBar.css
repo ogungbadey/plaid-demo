@@ -1,0 +1,45 @@
+.SearchBar {
+    flex: 0 0 auto;
+    margin: 1.0rem 1.5rem;
+    position: relative;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+.magnifyingGlass {
+    color: #999;
+    left: 12px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    vertical-align: inherit;
+    font-size: 12px;
+    /*width:48px;*/
+    height: 11px;
+    z-index: 1;
+}
+
+.SearchBarInput {
+    border-radius: 4px;
+    border-top-width: 10px;
+    color: #444;
+    height: 40px;
+    position: relative;
+    line-height: 20px;
+    padding-bottom: 0;
+    padding-left: 32px;
+    padding-right: 16px;
+    transition-duration: 100ms;
+    transition-property: width, box-shadow, border;
+    font-size: 15px;
+    width: 100%;
+
+}
+
+.SearchBarInputUnselected {
+    border: 1px solid #949494;
+    /*border-top-color: rgb(148, 148, 148);
+    border-top-style: solid;*/
+}

@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'helvlight';
+    src: url(helvlight/helvlight.TTF);
+}
+  
+
+.BankList {
+
+}
+
+.BankList ul {
+    list-style: none;
+}
+
+.InstitutionContainer {
+    min-height: 4.2rem; /*previously 6.0 */
+    display: flex;
+    padding: 0 calc((100% - 280px) / 2);
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.FormContainer {
+    padding: 0 calc((100% - 280px) / 2);
+    height: 100%;
+}
+
+.EnterYourCredentialsText {    
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #111;
+    font-stretch: semi-expanded;
+    margin-bottom: .8rem;
+    opacity: 1;
+}
+
+.CredentialsReadMe {
+    font-family: helvlight,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #4b4b4b;
+    opacity: .9;
+    font-weight: 400;
+    margin-bottom: 1.7rem;
+    line-height: 1.5rem;
+}
+
+label {
+    font-family: helvlight,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+    line-height: 3.4rem !important;
+    font-size: 1.2rem !important;
+    font-weight: lighter !important;
+    color: #696969;
+    left: 3.6rem;
+    position: absolute;
+    z-index: 0;
+    cursor: text; 
+}
+
+.inputAfterLabel {
+    /*line-height: 1.7rem !important;*/
+    font-family: helvlight,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+    
+    font-size: 1.3rem !important;
+    font-weight: lighter !important;
+    height: 3.4rem;
+    padding: 0 1.0rem;
+    width: 100%;
+
+    border-radius: 2px;
+    border: 1px solid #949494;
+    opacity: 1;
+    /* z-index: 100; */
+}
+
+.inputAfterLabel:focus {
+    outline: none !important;
+    border:1px solid #0977d1 !important;
+}
+
+.padlockDiv {
+    position: absolute;
+    padding-left: 3.2rem;
+    /*top: 10.6rem;*/
+    display: inline-block;
+    right: 3.4rem;
+    font-size: 20px;
+    padding-top: 17px;
+}
+
+.inputFieldset {
+    font-family: helvlight,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+    margin-bottom: 15px;
+}
+
+.inputFieldset2 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.labelclickedUser {
+    position: absolute;
+    font-size: 12px !important;
+    line-height: 1rem !important;
+    top: 218px;
+    padding: 0 0.6rem;
+    left: 50px;
+    background-color: white;
+}
+
+.labelclickedPassword{
+    position:absolute;
+    font-size: 12px !important;
+    line-height: 1rem !important;
+    top: 292px;
+    padding: 0 0.6rem;
+    left: 50px;
+    background-color: white;
+}
+
+.ButtonAfterAction{
+    color: dimgray;
+    width: 100%;
+    height: 56px;
+    background-color: #111;
+    border: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+
+
+    

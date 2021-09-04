@@ -91,7 +91,7 @@ video {
   font-family: Helvetica;
   position: relative;
   box-sizing: border-box;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 * {
